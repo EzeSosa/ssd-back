@@ -1,9 +1,9 @@
-package com.esosa.ssdbackend.facts.sale
+package com.esosa.ssdbackend.facts.sales
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
-@Document(collation = "venta")
+@Document(collection = "venta")
 data class Sale(
 
     val id_ciente: Int,
